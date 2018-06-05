@@ -28,6 +28,7 @@ RUN wget -q -O - "https://dl-ssl.google.com/linux/linux_signing_key.pub" | sudo 
 && update-locale LANG=C.UTF-8 LC_MESSAGES=POSIX \
 
 
+
 EXPOSE 80
 
 ENTRYPOINT ["/entrypoint.sh"]
